@@ -22,7 +22,7 @@ class __TwigTemplate_4d8074ef0c309dcfd99783020d573824 extends Twig_Template
     <meta charset=\"UTF-8\">
     <title>Тест Twig 01-2</title>
     <link rel=\"stylesheet\" href=\"css/main.css\">
-    <link rel=\"stylesheet\" href=\"vendor/twbs/bootstrap/dist/css/bootstrap.min.css\">
+    <link rel=\"stylesheet\" href=\"res/bootstrap/css/bootstrap.min.css\">
 </head>
 <body>
     ";
@@ -44,7 +44,7 @@ class __TwigTemplate_4d8074ef0c309dcfd99783020d573824 extends Twig_Template
         $this->env->loadTemplate("footer.html.twig")->display($context);
         // line 16
         echo "<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>
-<script src=\"vendor/twbs/bootstrap/dist/js/bootstrap.min.js\"></script>
+<script src=\"res/bootstrap/js/bootstrap.min.js\"></script>
 </body>
 </html>";
     }
