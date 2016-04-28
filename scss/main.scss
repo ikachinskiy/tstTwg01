@@ -1,4 +1,11 @@
- * {
-   background-color: #ffffff;
-   margin: 1rem;
- }
+body {
+  padding: 0;
+}
+.navbar {
+  background-color: #1b6d85;
+  padding-right: 1rem;
+}
+#content {
+  padding-left: 2rem;
+  background-color: #ffffff;
+}

@@ -14,7 +14,7 @@ $twig = new Twig_Environment($loader, array(
     ));
 
 echo $twig->render('main.html.twig', array(
-    'title'     => 'Тест Twig: 01-2',
-    'topic'    => 'Смелость отличается от глупости только результатом'
+    'title'     => 'Город: Москва',
+    'topic'    => 'Мать ..... русских'
     ));
 ?>
